@@ -33,3 +33,35 @@
     font-weight: 600;
     letter-spacing: 1px;
 }
+.site-header {
+    background-color: #153656;
+    color: #ffffff;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.header-wrapper {
+    margin: auto;
+    padding: 0 40px;
+    position: relative;
+    height: 100%;
+}
+.site-titlee a {
+    background: #fff no-repeat;
+    background-size: 100%;
+    display: block;
+    position: relative;
+    top: 10px;
+    text-indent: -999em;
+    width: 80px;
+    height: 80px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}

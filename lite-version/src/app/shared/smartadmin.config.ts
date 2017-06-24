@@ -35,7 +35,7 @@ export const config: any = {
       logo: "assets/img/logo-blue.png",
       skinBtnClass: "btn btn-xs btn-block txt-color-darken margin-top-5",
       style: {
-        background: '#fff'
+        background: '#153656'
       },
       label: "Ultra Light"
     },
