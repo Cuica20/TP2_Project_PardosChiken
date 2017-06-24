@@ -10,49 +10,93 @@
             <!-- widget content -->
             <div class="widget-body">
                 <div id="order-form" class="smart-form">
-                <fieldset>
-                    <div class="row">
-                        <section class="col col-6">
-                            <label class="input"> <i class="icon-append fa fa-user"></i>
-                                <input type="text" name="name" placeholder="Name"/>
-                            </label>
-                        </section>
-                        <section class="col col-6">
-                            <label class="input"> <i class="icon-append fa fa-briefcase"></i>
-                                <input type="text" name="company" placeholder="Company"/>
-                            </label>
-                        </section>
-                    </div>
+                    <fieldset>
+                        <div class="row">
+                            <section class="col col-2">
+                                <label class="input"> <i class="icon-append fa fa-user"></i>
+                                    <input type="text" name="dni" placeholder="DNI"/>
+                                </label>
+                            </section>
+                            <section class="col col-3">
+                                <label class="input"> <i class="icon-append fa fa-user"></i>
+                                    <input type="text" name="nombres" placeholder="Nombres"/>
+                                </label>
+                            </section>
+                            <section class="col col-4">
+                                <label class="input"> <i class="icon-append fa fa-user"></i>
+                                    <input type="text" name="apellido" placeholder="Apellido"/>
+                                </label>
+                            </section>
+                            <section class="col col-3">
+                                <label class="input"> <i class="icon-append fa fa-envelope-o"></i>
+                                    <input type="email" name="correo" placeholder="Correo"/>
+                                </label>
+                            </section>
+                        </div>
 
-                    <div class="row">
-                        <section class="col col-6">
-                            <label class="input"> <i class="icon-append fa fa-envelope-o"></i>
-                                <input type="email" name="email" placeholder="E-mail"/>
-                            </label>
-                        </section>
-                        <section class="col col-6">
-                            <label class="input"> <i class="icon-append fa fa-phone"></i>
-                                <input type="tel" name="phone" placeholder="Phone" saMaskedInput="(999) 999-9999" >
-                            </label>
-                        </section>
-                    </div><!--
-                    <div class="row">
-                        <section class="col col-6">
-                            <label class="input"> <i class="icon-append fa fa-calendar"></i>
-                                <input type="text" name="startdate" id="startdate" [saUiDatepicker]="{minRestrict:'#finishdate'}" placeholder="Expected start date"/>
-                            </label>
-                        </section>
-                        <section class="col col-6">
-                            <label class="input"> <i class="icon-append fa fa-calendar"></i>
-                                <input type="text" name="finishdate" id="finishdate" [saUiDatepicker]="{maxRestrict:'#startdate'}" placeholder="Expected finish date"/>
-                            </label>
-                        </section>
-                    </div>-->
-                </fieldset>
+                        <div class="row">
+                            <section class="col col-2">
+                                <label class="input"> <i class="icon-append fa fa-calendar"></i>
+                                    <input type="text" name="fecha" placeholder="Fecha"/>
+                                </label>
+                            </section>
+                            <section class="col col-3">
+                                <label class="input"> <i class="icon-append fa fa-chevron-down"></i>
+                                    <input type="text" name="local" placeholder="Local"/>
+                                </label>
+                            </section>
+                            <section class="col col-2">
+                                <label class="input"> <i class="icon-append fa fa-clock-o"></i>
+                                    <input type="text" name="hora" placeholder="Hora"/>
+                                </label>
+                            </section>
 
+                            <section class="col col-2">
+                                <label class="input"> <i class="icon-append fa fa-phone"></i>
+                                    <input type="tel" name="phone" placeholder="Phone" saMaskedInput="(999) 999-9999" >
+                                </label>
+                            </section>
+                        </div>
+
+                        <div class="row">
+                            <section class="col col-2">
+                                <label class="input"> <i class="icon-append fa fa-money"></i>
+                                    <input type="text" name="cantidad" placeholder="Cantidad"/>
+                                </label>
+                            </section>
+                            <section class="col col-3">
+                                <label class="input"> <i class="icon-append fa fa-money"></i>
+                                    <input type="text" name="adelanto" placeholder="Monto de Adelanto 24hrs"/>
+                                </label>
+                            </section>
+                        </div>
+
+                        <div class="row">
+                            <section class="col col-12">
+                                <label>Comentario</label>
+                                <label class="input">
+                                <textarea rows="4" cols="100">
+                                </textarea>
+                                </label>
+                            </section>
+                        </div>
+                        <div class="row">
+                            <section class="col col-2">
+                                <label class="label-dummy">&nbsp;</label>
+                                <button type="submit" class="btn btn-lg btn-primary">
+                                    Agregar
+                                </button>
+                            </section>
+                            <section class="col col-2">
+                                <label class="label-dummy">&nbsp;</label>
+                                <button type="submit" class="btn btn-lg btn-primary">
+                                    Cancelar
+                                </button>
+                            </section>
+                        </div>
+                    </fieldset>
+                </div>
             </div>
-            <!-- end widget content -->
-
         </div>
     </div>
 </div>

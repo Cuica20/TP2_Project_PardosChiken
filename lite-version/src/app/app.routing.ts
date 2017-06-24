@@ -31,6 +31,10 @@ export const routes: Routes = [
             {
                 path: 'reserva',
                 loadChildren: 'app/+reserva/reserva.module#ReservaModule'
+            },
+            {
+                path: 'reservaConsulta',
+                loadChildren: 'app/+reserva-consulta/reserva.consulta.module#ReservaConsultaModule'
             }
         ]
     },
